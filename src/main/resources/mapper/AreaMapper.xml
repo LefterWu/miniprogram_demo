@@ -26,7 +26,7 @@
                 name = #{name},
             </if>
             <if test="priority!=null">
-                priority = #{priority}
+                priority = #{priority},
             </if>
             <if test="createTime!=null">
                 create_time = #{createTime},

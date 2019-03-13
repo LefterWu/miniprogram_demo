@@ -40,7 +40,7 @@ public class AreaController {
         return CommonResponse.createSuccessData(areaService.deleteArea(id));
     }
 
-    @PostMapping("/area")
+    @PutMapping("/area")
     public CommonResponse modifyArea(@RequestBody Area area) {
         return CommonResponse.createSuccessData(areaService.modifyArea(area));
     }

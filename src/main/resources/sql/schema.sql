@@ -14,9 +14,9 @@ CREATE TABLE `area` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8 COMMENT '地区表';
 
 INSERT INTO
-	area(name, priority)
+  area(name, priority)
 VALUES
-	('北京', 1),
-	('上海', 2),
-	('深圳', 3),
-	('广州', 4);
+  ('北京', 1),
+  ('上海', 1),
+  ('深圳', 1),
+  ('广州', 1);
